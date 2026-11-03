@@ -46,7 +46,7 @@ img/                banner pixel art, capturas de las demos, avatar, favicon e i
 >
 > El primero viene de mi práctica en compras. El seguimiento de proveedores era manual: pedir documentos uno por uno y buscar las respuestas en Gmail. Construí cuatro automatizaciones en Google Workspace y las entregué con acta. La decisión clave fue no usar una API de IA para leer los correos, por el consentimiento de datos, sino un motor de reglas con niveles de confianza: solo confirma lo que tiene evidencia fuerte y única, y lo dudoso va a una persona. En la página se puede probar en vivo, incluido un correo falso que pide cambiar la cuenta bancaria: el sistema no lo confirma porque Gmail no verificó al remitente.
 >
-> El segundo, Supplier Scout, encuentra proveedores que no están en internet y los compara por el costo real del pedido. Tiene un agente con la API de Claude, pero con límites: solo lee, no ve teléfonos ni correos y no puede inventar proveedores. Tiene 150 pruebas automáticas.
+> El segundo, Supplier Scout, busca proveedores reales cerca de cualquier lugar, incluidos los que no tienen página web, y ayuda a llegar a tres cotizaciones. No me quedé con que «parece que funciona»: armé una prueba en vivo que comprueba cada negocio que muestra contra la base de OpenStreetMap, y 67 de 67 existen. Esa misma prueba encontró fallas reales, como un servidor que tardaba 30 segundos, y las corregí.
 >
 > El tercero es mi negocio de impresión 3D, donde agentes de IA hacen diseño y marketing y yo dirijo y verifico. Ahí aprendí a medir antes de escalar: 189 agentes en paralelo fallaron; 9 bien acotados terminaron todos.
 >
@@ -57,5 +57,5 @@ Si preguntan por qué el sitio tiene «vistas por rol»: postulo a roles distint
 ## Créditos
 
 - Fuentes: Press Start 2P y JetBrains Mono (SIL Open Font License 1.1).
-- Clasificador: [Supplier Radar](https://github.com/Dsergio909/supplier-radar), licencia MIT.
+- Clasificador: [Supplier Radar](https://github.com/Dsergio909/supplier-radar), licencia MIT (copia al día del 3-nov-2026).
 - Hecho con Claude Code.
