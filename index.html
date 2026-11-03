@@ -8,7 +8,7 @@
 <title>Sergio García · Automatización de procesos e IA aplicada</title>
 <meta name="description" content="Portafolio de Sergio García (Bogotá): automatización de procesos, agentes de IA y contenido con IA. Tres casos con demo, código y resultados verificables.">
 <meta name="author" content="Sergio García">
-<meta name="theme-color" content="#0b1020">
+<meta name="theme-color" content="#14202a">
 <link rel="canonical" href="https://dsergio909.github.io/">
 <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
 <meta property="og:type" content="profile">
@@ -23,7 +23,8 @@
 <meta property="og:locale" content="es_CO">
 <meta property="og:locale:alternate" content="en_US">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="preload" href="fonts/press-start-2p-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/ibm-plex-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/ibm-plex-sans-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="css/style.css">
 <script type="application/ld+json">
 {
@@ -32,7 +33,6 @@
   "name": "Sergio García",
   "alternateName": "Sergio David García Celis",
   "url": "https://dsergio909.github.io/",
-  "image": "https://dsergio909.github.io/img/avatar.webp",
   "email": "mailto:dsergio909@gmail.com",
   "jobTitle": "Automatización de procesos e IA aplicada",
   "address": { "@type": "PostalAddress", "addressLocality": "Bogotá", "addressCountry": "CO" },
@@ -55,8 +55,8 @@
 <header class="top">
   <div class="wrap top__in">
     <a class="brand" href="#inicio" aria-label="Sergio García, inicio" data-en-aria-label="Sergio García, home">
-      <img src="img/favicon.svg" alt="" width="28" height="28">
-      <span>SERGIO GARCÍA</span>
+      <span class="mark" aria-hidden="true">SG</span>
+      <span>Sergio García</span>
     </a>
     <nav class="nav" aria-label="Secciones" data-en-aria-label="Sections">
       <a href="#pruebalo"><span class="es">Pruébalo</span><span class="en">Try it</span></a>
@@ -79,7 +79,7 @@
   <div class="wrap">
     <div class="hero__grid">
       <div class="hero__text">
-        <p class="kicker">&gt; <span class="es">hola, soy Sergio García</span><span class="en">hi, I'm Sergio García</span><span class="cursor" aria-hidden="true">_</span></p>
+        <p class="kicker">Sergio García · <span class="es">Bogotá, Colombia</span><span class="en">Bogotá, Colombia</span></p>
         <h1>
           <span class="es">Automatizo procesos y construyo IA <mark>que no adivina.</mark></span>
           <span class="en">I automate processes and build AI <mark>that doesn't guess.</mark></span>
@@ -89,13 +89,13 @@
           <span class="en">My systems confirm what is certain, hand what is unclear to a person with the evidence, and log every decision. I come from International Business, not engineering: I learned to code by building, with AI as my pair programmer.</span>
         </p>
         <div class="cta">
-          <a class="btn btn--primary" href="#pruebalo"><span class="es">▶ Pruébalo en 20 segundos</span><span class="en">▶ Try it in 20 seconds</span></a>
+          <a class="btn btn--primary" href="#pruebalo"><span class="es">Pruébalo en 20 segundos</span><span class="en">Try it in 20 seconds</span></a>
           <a class="btn" href="#casos"><span class="es">Ver los 3 casos</span><span class="en">See the 3 case studies</span></a>
           <a class="btn btn--ghost" href="mailto:dsergio909@gmail.com"><span class="es">Escríbeme</span><span class="en">Email me</span></a>
         </div>
       </div>
       <aside class="card-id" aria-label="Ficha" data-en-aria-label="Profile card">
-        <img class="card-id__avatar" src="img/avatar.webp" width="160" height="160" alt="Ilustración de Sergio García" data-en-alt="Illustration of Sergio García">
+        <div class="card-id__head"><span class="card-id__mono" aria-hidden="true">SG</span><div><p class="card-id__name">Sergio García</p><p class="card-id__role"><span class="es">Automatización de procesos e IA aplicada</span><span class="en">Process automation and applied AI</span></p></div></div>
         <p class="status"><span class="dot" aria-hidden="true"></span><span class="es">Disponible · remoto o híbrido</span><span class="en">Open to work · remote or hybrid</span></p>
         <dl class="facts">
           <div><dt><span class="es">Base</span><span class="en">Based in</span></dt><dd>Bogotá, CO</dd></div>
@@ -109,12 +109,6 @@
       </aside>
     </div>
 
-    <figure class="screen">
-      <picture>
-        <source srcset="img/banner-quieto.svg" media="(prefers-reduced-motion: reduce)">
-        <img src="img/banner.svg" width="1200" height="400" alt="Pixel art de mi oficina en casa: computador con agentes de IA trabajando, gatos y una impresora 3D" data-en-alt="Pixel art of my home office: a computer with AI agents running, cats and a 3D printer">
-      </picture>
-    </figure>
 
     <ul class="stats" aria-label="Cifras" data-en-aria-label="Key numbers">
       <li class="stat stat--green">
@@ -276,7 +270,7 @@
         </div>
         <div class="case__body">
           <p class="eyebrow"><span class="es">Caso 01 · Compras · Práctica profesional</span><span class="en">Case 01 · Procurement · Internship</span></p>
-          <h3 id="t-radar">SUPPLIER RADAR</h3>
+          <h3 id="t-radar">Supplier Radar</h3>
           <p class="case__lede"><span class="es">El seguimiento de proveedores y contratos que construí en mi práctica de compras, reconstruido en público con pruebas y datos ficticios.</span><span class="en">The supplier and contract tracking I built during my procurement internship, rebuilt in public with tests and synthetic data.</span></p>
           <dl class="case__grid">
             <div><dt><span class="es">Problema</span><span class="en">Problem</span></dt>
@@ -312,7 +306,7 @@
         </div>
         <div class="case__body">
           <p class="eyebrow"><span class="es">Caso 02 · Abastecimiento · Datos reales</span><span class="en">Case 02 · Sourcing · Real data</span></p>
-          <h3 id="t-scout">SUPPLIER SCOUT</h3>
+          <h3 id="t-scout">Supplier Scout</h3>
           <p class="case__lede"><span class="es">Busca proveedores reales cerca de cualquier ciudad, pueblo o barrio, incluidos los que no tienen página web, y ayuda a llegar a tres cotizaciones.</span><span class="en">Finds real suppliers near any city, town or neighborhood, including the ones with no website, and helps you get to three quotes.</span></p>
           <dl class="case__grid">
             <div><dt><span class="es">Problema</span><span class="en">Problem</span></dt>
@@ -363,7 +357,7 @@
         </div>
         <div class="case__body">
           <p class="eyebrow"><span class="es">Caso 03 · Negocio propio · Agentes de IA</span><span class="en">Case 03 · My own business · AI agents</span></p>
-          <h3 id="t-foxy">FOXYMAKER3D</h3>
+          <h3 id="t-foxy">FoxyMaker3D</h3>
           <p class="case__lede"><span class="es">Mi taller de impresión 3D, donde diseño, producción y marketing los trabajan agentes de IA que yo dirijo y verifico.</span><span class="en">My 3D printing shop, where design, production and marketing are handled by AI agents that I direct and verify.</span></p>
           <dl class="case__grid">
             <div><dt><span class="es">Problema</span><span class="en">Problem</span></dt>

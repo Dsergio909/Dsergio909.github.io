@@ -17,10 +17,11 @@ Sitio estático en español e inglés con tres casos (Supplier Radar, Supplier S
 
 ## Técnica
 
-- HTML, CSS y JavaScript sin dependencias ni paso de compilación. Unos 360 KB en total.
+- HTML, CSS y JavaScript sin dependencias ni paso de compilación.
+- Diseño sobrio, el mismo de Supplier Radar y Supplier Scout: IBM Plex, fondo claro con banda oscura y un solo color de acento; modo oscuro automático.
 - Fuentes servidas desde el propio sitio (SIL Open Font License, ver `fonts/`): cero peticiones a terceros, sin cookies ni rastreadores.
 - Política de seguridad de contenido estricta (`<meta>`), todo lo dinámico se pinta con `textContent`.
-- Accesible: navegación con teclado, foco visible, textos alternativos, respeta «reducir movimiento» (el banner tiene una versión quieta).
+- Accesible: navegación con teclado, foco visible, textos alternativos y respeta «reducir movimiento».
 - Al imprimir la página sale una versión limpia en blanco, útil como resumen en papel.
 
 ## Estructura
@@ -31,7 +32,7 @@ css/style.css       estilos (paleta y fuentes iguales a Supplier Radar y Supplie
 js/main.js          idioma, vista por rol, copiar enlace y la demo
 js/classifier.js    clasificador de Supplier Radar (copiado tal cual, licencia MIT)
 js/messages.js      explicaciones del clasificador en español e inglés (Supplier Radar, MIT)
-img/                banner pixel art, capturas de las demos, avatar, favicon e imagen para compartir (og.png)
+img/                capturas de las demos, favicon e imagen para compartir (og.png)
 ```
 
 ## Cómo editarlo
@@ -56,6 +57,6 @@ Si preguntan por qué el sitio tiene «vistas por rol»: postulo a roles distint
 
 ## Créditos
 
-- Fuentes: Press Start 2P y JetBrains Mono (SIL Open Font License 1.1).
+- Fuentes: IBM Plex Sans y IBM Plex Mono (SIL Open Font License 1.1, ver `fonts/OFL-IBM-Plex.txt`).
 - Clasificador: [Supplier Radar](https://github.com/Dsergio909/supplier-radar), licencia MIT (copia al día del 3-nov-2026).
 - Hecho con Claude Code.
