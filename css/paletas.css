@@ -1,0 +1,62 @@
+/* Propuestas de paleta y tipografía (solo para elegir; se queda una). ?paleta=1|2|3 */
+@font-face { font-family: 'Fraunces'; font-weight: 500; font-display: swap; src: url(../fonts/fraunces-latin-500-normal.woff2) format('woff2'); }
+@font-face { font-family: 'Fraunces'; font-weight: 400; font-style: italic; font-display: swap; src: url(../fonts/fraunces-latin-400-italic.woff2) format('woff2'); }
+@font-face { font-family: 'Newsreader'; font-weight: 500; font-display: swap; src: url(../fonts/newsreader-latin-500-normal.woff2) format('woff2'); }
+@font-face { font-family: 'Newsreader'; font-weight: 400; font-style: italic; font-display: swap; src: url(../fonts/newsreader-latin-400-italic.woff2) format('woff2'); }
+@font-face { font-family: 'Plex Serif'; font-weight: 500; font-display: swap; src: url(../fonts/ibm-plex-serif-latin-500-normal.woff2) format('woff2'); }
+@font-face { font-family: 'Plex Serif'; font-weight: 400; font-style: italic; font-display: swap; src: url(../fonts/ibm-plex-serif-latin-400-italic.woff2) format('woff2'); }
+
+/* ---- Lo común a las tres: fuera el «look Claude» ---- */
+html[data-paleta] h1, html[data-paleta] h2, html[data-paleta] .case h3 { font-family: var(--serif); font-weight: 500; letter-spacing: -0.01em; }
+html[data-paleta] h1 mark { color: inherit; font-style: italic; font-weight: 400; }
+html[data-paleta] .tags { gap: 0; }
+html[data-paleta] .tags li { background: none; border: 0; padding: 0; border-radius: 0; font-size: 13.5px; }
+html[data-paleta] .tags li + li::before { content: '·'; margin: 0 8px; color: var(--faint); }
+html[data-paleta] .reel-card__meta { font-family: var(--sans); font-size: 13px; letter-spacing: .2px; }
+html[data-paleta] .rules li::before { font-family: var(--serif); font-style: italic; font-size: 18px; }
+html[data-paleta] .phone { border-radius: 14px; }
+html[data-paleta] .hero .btn--primary, html[data-paleta] .btn--primary { background: var(--brand); border-color: var(--brand); color: var(--brand-ink); }
+html[data-paleta] .hero .btn--primary:hover, html[data-paleta] .btn--primary:hover { background: var(--brand-hover); border-color: var(--brand-hover); }
+html[data-paleta] h1 { color: var(--bar-text); }
+html[data-paleta] .card-id__mono, html[data-paleta] .mark { background: var(--brand); }
+
+/* 1 · Editorial: papel, tinta y azul cobalto (confianza sin frialdad) */
+html[data-paleta="1"] {
+  --serif: 'Fraunces', Georgia, serif;
+  --bg: #f6f3ee; --surface: #fffdf9; --layer: #f1ede6; --line: #ddd6cb; --line-soft: #e8e2d8;
+  --text: #1c1a17; --muted: #55504a; --faint: #6f6a62;
+  --brand: #1f4fbf; --brand-hover: #173d94; --brand-ink: #ffffff; --brand-tint: #e8eefb;
+  --bar: #f6f3ee; --bar-2: #efeae2; --bar-line: #ddd6cb; --bar-text: #1c1a17; --bar-muted: #55504a; --bar-accent: #1f4fbf;
+}
+html[data-paleta="1"] .top { background: #fffdf9; border-bottom-color: #e3ddd3; }
+html[data-paleta="1"] .top, html[data-paleta="1"] .top a, html[data-paleta="1"] .brand { color: #1c1a17; }
+html[data-paleta="1"] .hero .btn { color: #1c1a17; border-color: #cfc7bb; }
+html[data-paleta="1"] .hero .btn:hover { background: #efeae2; }
+html[data-paleta="1"] .phone { border-color: #ddd6cb; box-shadow: 0 16px 34px rgba(60, 45, 25, .18); }
+
+/* 2 · Azul de confianza: banda azul noche, acento azul (familia de Radar y Scout) */
+html[data-paleta="2"] {
+  --serif: 'Newsreader', Georgia, serif;
+  --bg: #f5f7fa; --surface: #ffffff; --layer: #eef2f7; --line: #d7dee8; --line-soft: #e6ebf2;
+  --text: #121a26; --muted: #4a5568; --faint: #64708a;
+  --brand: #1a5fb4; --brand-hover: #134a8e; --brand-ink: #ffffff; --brand-tint: #e6effa;
+  --bar: #0f1f3a; --bar-2: #162a4d; --bar-line: #263d63; --bar-text: #f1f5fb; --bar-muted: #b6c3d8; --bar-accent: #9cc4ff;
+}
+html[data-paleta="2"] .hero .btn--primary { background: #ffffff; border-color: #ffffff; color: #0f1f3a; }
+html[data-paleta="2"] .hero .btn--primary:hover { background: #dbe7fb; border-color: #dbe7fb; }
+
+/* 3 · Borgoña: papel cálido, tinta y vino (elegante y fácil de recordar) */
+html[data-paleta="3"] {
+  --serif: 'Plex Serif', Georgia, serif;
+  --bg: #faf7f3; --surface: #ffffff; --layer: #f4efe9; --line: #e2d9cf; --line-soft: #ece5dc;
+  --text: #1d1716; --muted: #574c48; --faint: #74675f;
+  --brand: #8a1c3b; --brand-hover: #6d1530; --brand-ink: #ffffff; --brand-tint: #f6e7eb;
+  --bar: #1d1716; --bar-2: #2a2120; --bar-line: #3d302e; --bar-text: #fbf6f1; --bar-muted: #c9bcb4; --bar-accent: #e7a9b9;
+}
+html[data-paleta="3"] .hero .btn--primary { background: #8a1c3b; border-color: #8a1c3b; }
+html[data-paleta="1"] .stat strong, html[data-paleta="1"] .stats strong { color: var(--text); }
+html[data-paleta="1"] .lang button[aria-pressed="true"] { color: #1c1a17; background: #efeae2; }
+html[data-paleta="1"] .lang button { color: #55504a; }
+html[data-paleta="1"] .hero .btn--ghost { border-color: transparent; }
+html[data-paleta="1"] .mark { color: #fff; }
+html[data-paleta="1"] .hero .btn--primary { color: #fff; border-color: var(--brand); }

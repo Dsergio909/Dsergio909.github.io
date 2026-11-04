@@ -240,6 +240,7 @@
 (function () {
   var params = new URLSearchParams(location.search);
   if (params.get('propuesta')) document.documentElement.setAttribute('data-propuesta', params.get('propuesta'));
+  if (params.get('paleta')) document.documentElement.setAttribute('data-paleta', params.get('paleta'));
   var videos = Array.prototype.slice.call(document.querySelectorAll('video.js-loop'));
   if (!videos.length) return;
   var still = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
