@@ -362,3 +362,19 @@ body[data-rol="contenido"] #contenido { order: -1; }
 .content__sub { font-family: var(--head); font-weight: 700; letter-spacing: -0.015em; font-size: 22px; margin: 18px 0 2px; }
 @media (min-width: 900px) { .content .content__cards { grid-template-columns: repeat(3, 1fr); } }
 @media (max-width: 899px) { .showcase { max-width: 420px; margin: 0 auto; } }
+
+/* «También hice»: proyecto aparte, más compacto que un caso */
+.extra__title { margin-top: 40px; margin-bottom: 14px; }
+.side { display: grid; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; }
+@media (min-width: 820px) { .side { grid-template-columns: 360px 1fr; } }
+.side__media { background: var(--layer); padding: 16px; display: flex; align-items: center; border-bottom: 1px solid var(--line); }
+@media (min-width: 820px) { .side__media { border-bottom: 0; border-right: 1px solid var(--line); } }
+.side__media a { display: block; border: 1px solid var(--line); overflow: hidden; transition: border-color .12s; }
+.side__media a:hover { border-color: var(--brand); }
+.side__media img { width: 100%; }
+.side__body { padding: 22px; }
+@media (min-width: 768px) { .side__body { padding: 24px 28px; } }
+.side h4 { font-family: var(--head); font-weight: 700; font-size: 22px; letter-spacing: -0.02em; margin: 0 0 8px; }
+.side__body > p:not(.eyebrow):not(.links) { font-size: 15px; margin: 0 0 14px; }
+.side__facts { list-style: none; padding: 0; margin: 0 0 16px; display: flex; flex-wrap: wrap; gap: 6px 22px; font-size: 14px; color: var(--muted); }
+.side__facts b { color: var(--text); font-family: var(--head); font-size: 17px; margin-right: 4px; }
