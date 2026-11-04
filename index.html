@@ -6,7 +6,7 @@
 <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'none'; base-uri 'none'; form-action 'none'; manifest-src 'self'">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Sergio García · Automatización de procesos e IA aplicada</title>
-<meta name="description" content="Portafolio de Sergio García (Bogotá): automatización de procesos, agentes de IA y contenido con IA. Tres casos con demo, código y resultados verificables.">
+<meta name="description" content="Portafolio de Sergio García (Bogotá): automatización de procesos, agentes de IA y contenido con IA. Cuatro casos con demo, código y resultados verificables.">
 <meta name="author" content="Sergio García">
 <meta name="theme-color" content="#14202a">
 <link rel="canonical" href="https://dsergio909.github.io/">
@@ -14,7 +14,7 @@
 <meta property="og:type" content="profile">
 <meta property="og:site_name" content="Sergio García">
 <meta property="og:title" content="Sergio García · Automatizo procesos y construyo IA que no adivina">
-<meta property="og:description" content="Tres casos con demo, código y resultados verificables: Supplier Radar, Supplier Scout y un taller de impresión 3D operado con agentes de IA.">
+<meta property="og:description" content="Cuatro casos con demo, código y resultados verificables: Supplier Radar, Supplier Scout, la Mesa de Cotejo y un taller de impresión 3D operado con agentes de IA.">
 <meta property="og:url" content="https://dsergio909.github.io/">
 <meta property="og:image" content="https://dsergio909.github.io/img/og.png">
 <meta property="og:image:width" content="1200">
@@ -90,7 +90,7 @@
         </p>
         <div class="cta">
           <a class="btn btn--primary" href="#pruebalo"><span class="es">Pruébalo en 20 segundos</span><span class="en">Try it in 20 seconds</span></a>
-          <a class="btn" href="#casos"><span class="es">Ver los 3 casos</span><span class="en">See the 3 case studies</span></a>
+          <a class="btn" href="#casos"><span class="es">Ver los 4 casos</span><span class="en">See the 4 case studies</span></a>
           <a class="btn btn--ghost" href="mailto:dsergio909@gmail.com"><span class="es">Escríbeme</span><span class="en">Email me</span></a>
         </div>
       </div>
@@ -258,7 +258,7 @@
   <div class="wrap">
     <header class="sec-head">
       <p class="eyebrow"><span class="es">Casos</span><span class="en">Case studies</span></p>
-      <h2 id="casos-titulo"><span class="es">Tres problemas reales, cómo los resolví y qué falta</span><span class="en">Three real problems, how I solved them and what is still missing</span></h2>
+      <h2 id="casos-titulo"><span class="es">Cuatro problemas reales, cómo los resolví y qué falta</span><span class="en">Four real problems, how I solved them and what is still missing</span></h2>
     </header>
 
     <div class="cases">
@@ -334,6 +334,40 @@
       </article>
 
       <!-- CASO 03 -->
+      <article class="case case--cotejo" id="caso-cotejo" aria-labelledby="t-cotejo">
+        <div class="case__media">
+          <a href="https://dsergio909.github.io/mesa-de-cotejo/" rel="noopener" aria-label="Abrir la demo de la Mesa de Cotejo" data-en-aria-label="Open the Cotejo Desk demo"><img src="img/caso-cotejo.webp" width="1200" height="750" loading="lazy" decoding="async" alt="Mesa de Cotejo: un reclamo en riesgo de silencio en el día hábil 14, con su reloj legal, la recomendación y el aviso de doble firma" data-en-alt="Cotejo Desk: a claim at risk of deemed approval on business day 14, with its legal clock, the recommendation and the two-signature notice"></a>
+        </div>
+        <div class="case__body">
+          <p class="eyebrow"><span class="es">Caso 03 · Crédito y fraude · Cumplimiento legal</span><span class="en">Case 03 · Credit and fraud · Legal compliance</span></p>
+          <h3 id="t-cotejo">Mesa de Cotejo</h3>
+          <p class="case__lede"><span class="es">Una mesa de operación para que una entidad de crédito atienda los reclamos por suplantación de identidad sin dejar vencer ningún plazo de la Ley 2573 de 2026. Datos ficticios.</span><span class="en">An operations desk for a lender to handle identity-theft claims without missing any deadline of Colombia’s Law 2573 of 2026. Fictitious data.</span></p>
+          <dl class="case__grid">
+            <div><dt><span class="es">Problema</span><span class="en">Problem</span></dt>
+              <dd><span class="es">Desde el 19 de noviembre de 2026, quien da crédito debe suspender el cobro de inmediato, cotejar los documentos en 10 días hábiles y responder en 15. Si no responde a tiempo, el reclamo se entiende resuelto a favor del cliente y la entidad se expone a sanción. Y no puede decidir sola que no hubo suplantación: eso lo decide un juez.</span><span class="en">Since November 19, 2026, lenders must suspend collections immediately, cross-check documents within 10 business days and respond within 15. A late response means the claim is deemed resolved in the customer’s favor and the lender faces sanctions. And the lender cannot rule on its own that there was no identity theft: only a judge can.</span></dd></div>
+            <div><dt><span class="es">Qué construí</span><span class="en">What I built</span></dt>
+              <dd><span class="es">Un reloj legal por caso en días hábiles, con los festivos de Colombia; un puntaje de evidencia donde cada punto dice por qué; redes de fraude que unen reclamos por dispositivo, teléfono, dirección o asesor; doble firma para las exoneraciones grandes; una bitácora encadenada con SHA-256 y borradores de las cartas al cliente. Cada paso real (aviso a centrales, cotejo, denuncias, DIAN) se registra con su fecha. En español, inglés y portugués.</span><span class="en">A legal clock per case in business days, with Colombian holidays; an evidence score where every point says why; fraud networks that link claims by device, phone, address or sales advisor; two signatures for large write-offs; a SHA-256 chained audit log and draft letters to the customer. Every real step (credit bureau notice, cross-check, criminal complaints, tax authority) is recorded with its date. In Spanish, English and Portuguese.</span></dd></div>
+            <div class="case__decision"><dt><span class="es">La decisión que defiendo</span><span class="en">The decision I'd defend</span></dt>
+              <dd><span class="es">Las fechas legales las calcula código determinista, nunca la IA, y no existe el botón «rechazar», porque la ley no lo permite. La IA resume y explica; una persona aprueba cada decisión.</span><span class="en">Legal dates come from deterministic code, never from AI, and there is no “reject” button, because the law does not allow it. AI summarizes and explains; a person approves every decision.</span></dd></div>
+          </dl>
+          <ul class="results">
+            <li><b>109</b> <span class="es">pruebas automáticas; 37 son casos reales comparados con un calendario de festivos escrito a mano, aparte del de la app</span><span class="en">automated tests; 37 are real-world cases checked against a hand-written holiday calendar, separate from the app’s own</span></li>
+            <li><b>24/24</b> <span class="es">fallas corregidas tras dos auditorías independientes, una con el texto oficial de la ley</span><span class="en">issues fixed after two independent audits, one against the official text of the law</span></li>
+            <li><b>12</b> <span class="es">obligaciones legales por caso, cada una con su artículo y su fecha límite</span><span class="en">legal obligations per case, each with its article and deadline</span></li>
+            <li><b>0</b> <span class="es">fallas de accesibilidad WCAG 2.2 AA (axe-core) en 3 idiomas</span><span class="en">WCAG 2.2 AA accessibility violations (axe-core) in 3 languages</span></li>
+          </ul>
+          <p class="gap"><b><span class="es">Lo que falta:</span><span class="en">What is missing:</span></b> <span class="es">es un prototipo que vive en el navegador. Para operar en una entidad le faltan servidor y base de datos compartida, inicio de sesión con roles y la conexión con las centrales de riesgo y la cobranza. Dos puntos de la ley necesitan la opinión de un abogado.</span><span class="en">it is a prototype that runs in the browser. A real lender would also need a server with a shared database, role-based sign-in and connections to credit bureaus and collections. Two legal points need a lawyer’s opinion.</span></p>
+          <ul class="tags" aria-label="Herramientas" data-en-aria-label="Tools">
+            <li>JavaScript</li><li>Node</li><li>SHA-256</li><li>Union-find</li><li>axe-core</li><li>Claude</li><li>Gemini</li>
+          </ul>
+          <p class="links">
+            <a class="btn btn--small btn--primary" href="https://dsergio909.github.io/mesa-de-cotejo/" rel="noopener"><span class="es">Demo ↗</span><span class="en">Demo ↗</span></a>
+            <a class="btn btn--small" href="https://github.com/Dsergio909/mesa-de-cotejo" rel="noopener"><span class="es">Código ↗</span><span class="en">Code ↗</span></a>
+          </p>
+        </div>
+      </article>
+
+      <!-- CASO 04 -->
       <article class="case case--foxy" id="caso-foxy" aria-labelledby="t-foxy">
         <div class="case__media case__media--diagram">
           <svg viewBox="0 0 400 430" role="img" aria-labelledby="dg-t" class="diagram">
@@ -356,7 +390,7 @@
           </svg>
         </div>
         <div class="case__body">
-          <p class="eyebrow"><span class="es">Caso 03 · Negocio propio · Agentes de IA</span><span class="en">Case 03 · My own business · AI agents</span></p>
+          <p class="eyebrow"><span class="es">Caso 04 · Negocio propio · Agentes de IA</span><span class="en">Case 04 · My own business · AI agents</span></p>
           <h3 id="t-foxy">FoxyMaker3D</h3>
           <p class="case__lede"><span class="es">Mi taller de impresión 3D, donde diseño, producción y marketing los trabajan agentes de IA que yo dirijo y verifico.</span><span class="en">My 3D printing shop, where design, production and marketing are handled by AI agents that I direct and verify.</span></p>
           <dl class="case__grid">
