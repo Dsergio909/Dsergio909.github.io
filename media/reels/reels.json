@@ -1,0 +1,64 @@
+{
+  "actualizado": "2026-11-03",
+  "notas": {
+    "loops": "Fragmentos de 8 s sin audio: la canción de cada reel tiene licencia solo dentro de Instagram y TikTok.",
+    "metricas": "Las cifras de TikTok se leyeron del perfil público el 3-nov-2026. Las de Instagram están vacías porque no se pudieron verificar (Instagram pide iniciar sesión).",
+    "fechas": "Fecha de publicación en hora de Colombia (UTC-5), confirmada con la hora de subida de TikTok."
+  },
+  "reels": [
+    {
+      "slug": "calabaza-encantada",
+      "titulo": "Aretes Calabaza Encantada",
+      "fecha_publicacion": "2026-10-05",
+      "duracion_completa_s": 27.9,
+      "herramientas": ["Blender", "ComfyUI", "Z-Image Turbo", "Piper TTS", "Python", "FFmpeg", "DaVinci Resolve"],
+      "ia_generativa": "Escenas de ambiente (la bruja) generadas con IA; los aretes son render 3D del modelo real.",
+      "loop": "calabaza-encantada-loop.mp4",
+      "portada": "calabaza-encantada.jpg",
+      "links": {
+        "tiktok": "https://www.tiktok.com/@foxymaker3d/video/7693338326983658770",
+        "instagram": null
+      },
+      "metricas": {
+        "tiktok": { "vistas": 224, "me_gusta": 5, "comentarios": 2, "medido": "2026-11-03" },
+        "instagram": { "vistas": null, "me_gusta": null, "comentarios": null, "medido": null }
+      }
+    },
+    {
+      "slug": "gatrina-bby-wow",
+      "titulo": "Gatrina: «Mis aretes cuando suena Bby Wow»",
+      "fecha_publicacion": "2026-10-06",
+      "duracion_completa_s": 22.5,
+      "herramientas": ["Blender", "ComfyUI", "Z-Image", "Wan 2.2 Fun Control 14B", "DWPose", "Real-ESRGAN (Video2X)", "DaVinci Resolve (Fusion)"],
+      "ia_generativa": "La gatita y su baile generados con IA; el arete es render 3D del modelo real.",
+      "loop": "gatrina-bby-wow-loop.mp4",
+      "portada": "gatrina-bby-wow.jpg",
+      "links": {
+        "tiktok": "https://www.tiktok.com/@foxymaker3d/video/7693738750874012936",
+        "instagram": null
+      },
+      "metricas": {
+        "tiktok": { "vistas": 211, "me_gusta": 6, "comentarios": 1, "medido": "2026-11-03" },
+        "instagram": { "vistas": null, "me_gusta": null, "comentarios": null, "medido": null }
+      }
+    },
+    {
+      "slug": "calaveritas-nivel-por-nivel",
+      "titulo": "Calaveritas: «Nivel por nivel»",
+      "fecha_publicacion": "2026-10-08",
+      "duracion_completa_s": 46.6,
+      "herramientas": ["Python", "After Effects (Saber)", "Blender", "DaVinci Resolve"],
+      "ia_generativa": null,
+      "loop": "calaveritas-nivel-por-nivel-loop.mp4",
+      "portada": "calaveritas-nivel-por-nivel.jpg",
+      "links": {
+        "tiktok": "https://www.tiktok.com/@foxymaker3d/video/7694376509678619911",
+        "instagram": null
+      },
+      "metricas": {
+        "tiktok": { "vistas": 139, "me_gusta": 3, "comentarios": 0, "medido": "2026-11-03" },
+        "instagram": { "vistas": null, "me_gusta": null, "comentarios": null, "medido": null }
+      }
+    }
+  ]
+}
