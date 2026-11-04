@@ -2,7 +2,7 @@
 
 **[dsergio909.github.io](https://dsergio909.github.io/)** · Automatización de procesos, agentes de IA y contenido con IA. Bogotá, Colombia.
 
-Sitio estático en español e inglés con tres casos (Supplier Radar, Supplier Scout y FoxyMaker3D), cada uno con problema, qué construí, la decisión que defiendo, resultados con fuente y lo que aún falta.
+Sitio estático en español e inglés con cuatro casos (Supplier Radar, Supplier Scout, Mesa de Cotejo y FoxyMaker3D), cada uno con problema, qué construí, la decisión que defiendo, resultados con fuente y lo que aún falta.
 
 ## Lo que lo hace distinto
 
