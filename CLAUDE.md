@@ -12,7 +12,8 @@ La memoria de mis proyectos es mi repo **privado** `Dsergio909/cerebro` (copia d
 
 ## Reglas mínimas (por si no se puede leer el cerebro)
 - Háblame en español, simple y paso a paso.
-- **Diseño profesional, como software empresarial.** Nada infantil ni con el «look Claude»: sin neón, pixel art, letra de videojuego o de consola, brillos, emojis de adorno ni avatares en caricatura. Estilo de Supplier Radar y Supplier Scout: IBM Plex Sans, fondo claro, barra oscura sobria (#14202a), un solo acento verde azulado (#0b6b66), bordes finos.
+- **Diseño profesional, como software empresarial.** Nada infantil ni con el «look Claude»: sin neón, pixel art, letra de videojuego o de consola, brillos, emojis de adorno ni avatares en caricatura. Diseño elegido por Sergio el 4-nov-2026: fondo blanco neutro, un solo acento verde oscuro (#1d4a35), titulares en Inter Tight 700 de un solo color, texto en IBM Plex Sans, bordes finos, modo oscuro automático. Reels sin sonido con enlace a TikTok.
+- **Textos con la voz de Sergio:** seguir `Personal/Mi_voz_al_escribir.md` del cerebro (primera persona, frases cortas, sin eslóganes ni fórmulas de IA).
 - **Antes de publicar algo visible** (diseño, textos, imágenes): muéstrame el antes y el después en capturas y espera mi «sí».
 - Prueba y audita tú mismo; comprueba con datos reales. Sin cifras inventadas. Quita lo que no sirva.
 - No vuelvas a proponer algo que ya se decidió: está en el cerebro.
