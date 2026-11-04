@@ -60,3 +60,34 @@ html[data-paleta="1"] .lang button { color: #55504a; }
 html[data-paleta="1"] .hero .btn--ghost { border-color: transparent; }
 html[data-paleta="1"] .mark { color: #fff; }
 html[data-paleta="1"] .hero .btn--primary { color: #fff; border-color: var(--brand); }
+
+/* ---- Verde oscuro sobre blanco neutro (pedido de Sergio, 4-nov) ---- */
+@font-face { font-family: 'Instrument Serif'; font-weight: 400; font-display: swap; src: url(../fonts/instrument-serif-latin-400-normal.woff2) format('woff2'); }
+@font-face { font-family: 'Instrument Serif'; font-weight: 400; font-style: italic; font-display: swap; src: url(../fonts/instrument-serif-latin-400-italic.woff2) format('woff2'); }
+@font-face { font-family: 'Inter Tight'; font-weight: 600; font-display: swap; src: url(../fonts/inter-tight-latin-600-normal.woff2) format('woff2'); }
+@font-face { font-family: 'Inter Tight'; font-weight: 700; font-display: swap; src: url(../fonts/inter-tight-latin-700-normal.woff2) format('woff2'); }
+html[data-paleta="4"], html[data-paleta="5"] {
+  --bg: #f7f7f5; --surface: #ffffff; --layer: #f1f2ef; --line: #dcdfda; --line-soft: #e8eae6;
+  --text: #121614; --muted: #4c544f; --faint: #66706a;
+  --brand: #1d4a35; --brand-hover: #143626; --brand-ink: #ffffff; --brand-tint: #e5eee8;
+  --bar: #ffffff; --bar-2: #f1f2ef; --bar-line: #dcdfda; --bar-text: #121614; --bar-muted: #4c544f; --bar-accent: #1d4a35;
+}
+html[data-paleta="4"] { --serif: 'Instrument Serif', Georgia, serif; }
+html[data-paleta="4"] h1 { font-size: clamp(40px, 5vw, 60px); font-weight: 400; line-height: 1.05; letter-spacing: -0.015em; }
+html[data-paleta="4"] h2 { font-weight: 400; font-size: clamp(32px, 4vw, 42px); }
+html[data-paleta="4"] .case h3 { font-weight: 400; font-size: clamp(30px, 3.4vw, 38px); }
+html[data-paleta="5"] { --serif: 'Inter Tight', 'Segoe UI', Arial, sans-serif; }
+html[data-paleta="5"] h1 { font-weight: 700; letter-spacing: -0.025em; line-height: 1.08; }
+html[data-paleta="5"] h1 mark { font-style: normal; font-weight: 700; color: inherit; }
+html[data-paleta="5"] h2, html[data-paleta="5"] .case h3 { font-weight: 700; letter-spacing: -0.02em; }
+html[data-paleta="4"] .top, html[data-paleta="5"] .top { background: rgba(255, 255, 255, .96); border-bottom-color: #e3e6e1; }
+html[data-paleta="4"] .top a, html[data-paleta="5"] .top a, html[data-paleta="4"] .brand, html[data-paleta="5"] .brand { color: #121614; }
+html[data-paleta="4"] .hero .btn, html[data-paleta="5"] .hero .btn { color: #121614; border-color: #cfd4cd; }
+html[data-paleta="4"] .hero .btn:hover, html[data-paleta="5"] .hero .btn:hover { background: #f1f2ef; }
+html[data-paleta="4"] .hero .btn--primary, html[data-paleta="5"] .hero .btn--primary { color: #fff; border-color: var(--brand); background: var(--brand); }
+html[data-paleta="4"] .hero .btn--ghost, html[data-paleta="5"] .hero .btn--ghost { border-color: transparent; }
+html[data-paleta="4"] .stat strong, html[data-paleta="5"] .stat strong { color: var(--text); }
+html[data-paleta="4"] .lang button, html[data-paleta="5"] .lang button { color: #4c544f; }
+html[data-paleta="4"] .lang button[aria-pressed="true"], html[data-paleta="5"] .lang button[aria-pressed="true"] { color: #121614; background: #f1f2ef; box-shadow: inset 0 -2px 0 var(--brand); }
+html[data-paleta="4"] .mark, html[data-paleta="5"] .mark { color: #fff; }
+html[data-paleta="4"] .phone, html[data-paleta="5"] .phone { border-color: #dcdfda; box-shadow: 0 16px 34px rgba(18, 22, 20, .16); }
