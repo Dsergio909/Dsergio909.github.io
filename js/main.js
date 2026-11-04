@@ -235,3 +235,29 @@
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
   else init();
 })();
+
+// ---- Reels: se reproducen sin sonido solo mientras se ven (y nunca con «reducir movimiento») ----
+(function () {
+  var params = new URLSearchParams(location.search);
+  if (params.get('propuesta')) document.documentElement.setAttribute('data-propuesta', params.get('propuesta'));
+  var videos = Array.prototype.slice.call(document.querySelectorAll('video.js-loop'));
+  if (!videos.length) return;
+  var still = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (still || !('IntersectionObserver' in window)) {
+    videos.forEach(function (v) { v.controls = true; });
+    return;
+  }
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) {
+      var v = e.target;
+      if (e.isIntersecting && e.intersectionRatio >= 0.4) {
+        if (v.preload !== 'auto') v.preload = 'auto';
+        var p = v.play();
+        if (p && p.catch) p.catch(function () { v.controls = true; });
+      } else if (!v.paused) {
+        v.pause();
+      }
+    });
+  }, { threshold: [0, 0.4] });
+  videos.forEach(function (v) { io.observe(v); });
+})();
