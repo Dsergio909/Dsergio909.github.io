@@ -43,13 +43,15 @@ img/                capturas de las demos, favicon e imagen para compartir (og.p
 
 ## Cómo explicarlo en 2 minutos
 
-> «Mi portafolio no es una lista de herramientas: son tres problemas reales y cómo los resolví.
+> «Mi portafolio no es una lista de herramientas: son cuatro problemas reales y cómo los resolví.
 >
 > El primero viene de mi práctica en compras. El seguimiento de proveedores era manual: pedir documentos uno por uno y buscar las respuestas en Gmail. Construí cuatro automatizaciones en Google Workspace y las entregué con acta. La decisión clave fue no usar una API de IA para leer los correos, por el consentimiento de datos, sino un motor de reglas con niveles de confianza: solo confirma lo que tiene evidencia fuerte y única, y lo dudoso va a una persona. En la página se puede probar en vivo, incluido un correo falso que pide cambiar la cuenta bancaria: el sistema no lo confirma porque Gmail no verificó al remitente. Y como los proveedores mandan fotos y escaneos con nombres que no dicen nada, lee cada documento por dentro y revisa que siga vigente: lo puse a prueba con 201 fotos difíciles y no aplicó ninguna sola con un error; lo dudoso va a una persona.
 >
 > El segundo, Supplier Scout, busca proveedores como lo hace compras: los distribuidores nacionales que ya le venden eso al Estado (datos abiertos de SECOP II), los proveedores que ya tengo, los negocios cercanos y búsquedas listas en internet, para llegar a tres cotizaciones. No me quedé con que «parece que funciona»: armé una prueba en vivo con datos reales, y los 58 proveedores que mostró tienen contratos bajo ese NIT. Esa misma prueba encontró fallas reales, como palabras ambiguas que traían empresas equivocadas («vigilancia» traía vigilancia epidemiológica), y las corregí.
 >
-> El tercero es mi negocio de impresión 3D, donde agentes de IA hacen diseño y marketing y yo dirijo y verifico. Ahí aprendí a medir antes de escalar: 189 agentes en paralelo fallaron; 9 bien acotados terminaron todos.
+> El tercero, la Mesa de Cotejo, nace de una ley nueva: desde noviembre de 2026, si una entidad de crédito no responde un reclamo por suplantación en 15 días hábiles, el reclamo se entiende resuelto a favor del cliente. Hice una mesa que calcula cada plazo con los festivos de Colombia, compara lo que se recibió al aprobar el crédito con lo que trae el cliente y une los casos que comparten dispositivo o asesor. Las fechas las calcula código, nunca la IA, y no hay botón de rechazar, porque eso solo lo decide un juez. Tiene 109 pruebas, 37 de ellas contra un calendario de festivos escrito a mano.
+>
+> El cuarto es mi negocio de impresión 3D, donde agentes de IA hacen diseño y marketing y yo dirijo y verifico. Ahí aprendí a medir antes de escalar: 189 agentes en paralelo fallaron; 9 bien acotados terminaron todos.
 >
 > Y cada caso dice qué le falta, porque prefiero que lo sepan por mí.»
 
