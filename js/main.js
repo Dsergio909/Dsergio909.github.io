@@ -11,8 +11,8 @@
 
   var ROLES = ['automatizacion', 'datos', 'ia', 'contenido', 'todos'];
   var ROLE_NAMES = {
-    es: { automatizacion: 'Automatización de procesos', datos: 'Compras y datos', ia: 'Operaciones con IA', contenido: 'Contenido con IA', todos: 'todo' },
-    en: { automatizacion: 'Process automation', datos: 'Procurement & data', ia: 'AI operations', contenido: 'AI content & video', todos: 'everything' }
+    es: { automatizacion: 'Automatización de procesos', datos: 'Análisis de datos', ia: 'Operaciones con IA', contenido: 'Contenido con IA', todos: 'todo' },
+    en: { automatizacion: 'Process automation', datos: 'Data analysis', ia: 'AI operations', contenido: 'AI content & video', todos: 'everything' }
   };
   var TITLES = {
     es: 'Sergio García · Automatización de procesos e IA aplicada',

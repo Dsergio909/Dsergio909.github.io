@@ -2,7 +2,7 @@
 
 **[dsergio909.github.io](https://dsergio909.github.io/)** · Automatización de procesos, agentes de IA y contenido con IA. Bogotá, Colombia.
 
-Sitio estático en español e inglés con cuatro casos (Supplier Radar, Supplier Scout, Mesa de Cotejo y FoxyMaker3D), cada uno con problema, qué hice, lo que decidí y por qué, resultados con fuente y lo que aún falta. Debajo, en «También hice», el [Ojo del mundo](https://github.com/Dsergio909/ojo-del-mundo): un servidor MCP para que Claude vea un mundo de Minecraft en 3D.
+Sitio estático en español e inglés con cinco casos (Comercio exterior de Colombia, Supplier Radar, Supplier Scout, Mesa de Cotejo y FoxyMaker3D), cada uno con problema, qué hice, lo que decidí y por qué, resultados con fuente y lo que aún falta. Debajo, en «También hice», el [Ojo del mundo](https://github.com/Dsergio909/ojo-del-mundo): un servidor MCP para que Claude vea un mundo de Minecraft en 3D.
 
 ## Lo que lo hace distinto
 

@@ -154,6 +154,7 @@ h1 mark { background: none; color: inherit; }
 .fit ul { margin: 0; padding-left: 20px; }
 .fit li { margin-bottom: 6px; }
 .fit__note { margin: 12px 0 0; font-size: 14px; color: var(--warn); }
+.fit__more { margin: 12px 0 0; font-size: 14px; color: var(--muted); }
 body[data-rol="automatizacion"] #fit-automatizacion,
 body[data-rol="datos"] #fit-datos,
 body[data-rol="ia"] #fit-ia,
