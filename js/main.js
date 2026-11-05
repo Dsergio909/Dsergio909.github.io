@@ -15,8 +15,8 @@
     en: { automatizacion: 'Process automation', datos: 'Data analysis', ia: 'AI operations', contenido: 'AI content & video', todos: 'everything' }
   };
   var TITLES = {
-    es: 'Sergio García · Automatización de procesos e IA aplicada',
-    en: 'Sergio García · Process automation and applied AI'
+    es: 'Sergio García · Automatización de procesos, análisis de datos e IA',
+    en: 'Sergio García · Process automation, data analysis and AI'
   };
 
   var state = { lang: 'es', rol: 'todos', scenario: 0, edited: false };
